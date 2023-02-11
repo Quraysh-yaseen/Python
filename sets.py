@@ -12,3 +12,14 @@ print(fruits)
 # Creating a set using the set() constructor
 vegetables = set(['potato', 'carrot', 'onion'])
 print(vegetables)
+
+# Add items to a set with my_set.add(item)
+colors = {"Red", "Green", "Blue"}
+colors.add("Orange")
+# Remove items with my_set.discard(item)
+
+colors = {"Red", "Green", "Blue"}
+colors.discard("Green")
+# You can remove an item from a set if it’s present with my_set.discard(item). If the set doesn’t contain the item, no error occurs.
+colors.discard("Green")
+print(colors)

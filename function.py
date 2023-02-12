@@ -11,3 +11,13 @@ def add_numbers(x, y):
 
 hello_world()
 add_numbers(2,3)
+
+# arguements
+# Positional arguments are all required, and must be given in the order they are declared.
+def say_greeting(name, greeting):
+    print(f"{greeting}, {name}.")
+
+    
+say_greeting("quraysh", "Hello!")
+ 
+ #Remember to never use an empty list as a default value to a function.

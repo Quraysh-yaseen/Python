@@ -46,3 +46,24 @@ a = "Nina"
 b = "Nina"
 print(a == b)
 print(a != b)
+
+#and, or, and not are the three basic types of boolean operators that are present in math, programming, and database logic.
+
+# and returns true only when both the values are true 
+a = True
+b = True
+print(a and b)
+
+# or returns true if any one of the values are true
+c = True
+d = False
+print (c or d)
+
+# not works similar to the not gate
+print(not a )
+
+# In Combination
+a = True
+b = True
+c = False
+print (a and (b or c))

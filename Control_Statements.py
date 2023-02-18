@@ -76,8 +76,3 @@ elif a < 20:
     print("Less than 20")
 else:
     print("Dunno")
-
-
-
-
-

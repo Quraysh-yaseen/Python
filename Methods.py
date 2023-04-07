@@ -104,8 +104,3 @@ class Car:
 my_car = Car("Ford", "Thunderbird")
 print(f"This object is a {str(my_car)}")
 print(f"To reproduce it, type: {repr(my_car)}")
-
-
-
-
-
